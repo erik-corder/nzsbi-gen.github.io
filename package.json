@@ -1,8 +1,9 @@
 {
   "name": "nzsb-i-gen",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "SVG Icon Generator",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "files": [
     "/lib/**/*"
   ],
@@ -16,7 +17,7 @@
     "preversion": "npm run lint",
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
- },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kanishkaisuru/Nzsb-i-Gen.git"
@@ -24,7 +25,7 @@
   "keywords": [
     "nzsb"
   ],
-  "author": "isuru",
+  "author": "NZSB",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kanishkaisuru/Nzsb-i-Gen/issues"
