@@ -1,6 +1,6 @@
 {
   "name": "nzsb-i-gen",
-  "version": "1.0.10",
+  "version": "1.0.13",
   "description": "SVG Icon Generator",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "test": "jest --config jestconfig.json",
-    "build": "fantasticon \"src/icon-src/\" -o fonts --name nzsb-icons --prefix nzsb",
+    "build": "fantasticon \"src/icon-src\" -o fonts --name nzsb --prefix nzsb",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
     "prepare": "npm run build",
@@ -18,7 +18,7 @@
     "preversion": "npm run lint",
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags",
-    "nzsg-gen": "fantasticon src/icon-src/ -o src/icon-dist"
+    "nzsg-gen": "fantasticon \"src/icon-src\" -o fonts --name nzsb --prefix nzsb"
   },
   "repository": {
     "type": "git",
