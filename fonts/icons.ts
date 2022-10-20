@@ -1,4 +1,4 @@
-export type NzsbId =
+export type IconsId =
   | 'abrasives'
   | 'adhesive-gun'
   | 'angled-arrow'
@@ -183,7 +183,7 @@ export type NzsbId =
   | 'wheel-barrow'
   | 'zoom-in';
 
-export const NZSB_CODEPOINTS: { [key in NzsbId]: string } = {
+export const ICONS_CODEPOINTS: { [key in IconsId]: string } = {
   'abrasives': '61697',
   'adhesive-gun': '61698',
   'angled-arrow': '61699',

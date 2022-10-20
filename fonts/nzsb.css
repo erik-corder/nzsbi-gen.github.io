@@ -1,11 +1,11 @@
 @font-face {
     font-family: "nzsb";
-    src: url("./nzsb.eot?337c216ce214d6a607f88ef95b5a97a6#iefix") format("embedded-opentype"),
-url("./nzsb.woff2?337c216ce214d6a607f88ef95b5a97a6") format("woff2"),
-url("./nzsb.woff?337c216ce214d6a607f88ef95b5a97a6") format("woff");
+    src: url("/static/fonts/nzsb.ttf?f82c4d452ea6924c4c476e4d8e918969") format("truetype"),
+url("/static/fonts/nzsb.woff?f82c4d452ea6924c4c476e4d8e918969") format("woff"),
+url("/static/fonts/nzsb.woff2?f82c4d452ea6924c4c476e4d8e918969") format("woff2");
 }
 
-i[class^="nzsb-"]:before, i[class*=" nzsb-"]:before {
+null:before {
     font-family: nzsb !important;
     font-style: normal;
     font-weight: normal !important;
@@ -16,552 +16,555 @@ i[class^="nzsb-"]:before, i[class*=" nzsb-"]:before {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.nzsb-business-award-2:before {
+null.nzsbi-chevron-left:before {
+    content: "\e000";
+}
+null.nzsbi-chevron-right:before {
+    content: "\e001";
+}
+null.nzsbi-thumbs-up:before {
+    content: "\e00e";
+}
+null.nzsbi-thumbs-down:before {
+    content: "\e00f";
+}
+null.nzsbi-abrasives:before {
     content: "\f101";
 }
-.nzsb-business-career:before {
+null.nzsbi-adhesive-gun:before {
     content: "\f102";
 }
-.nzsb-business-checked-shield:before {
+null.nzsbi-angled-arrow:before {
     content: "\f103";
 }
-.nzsb-business-crate-1:before {
+null.nzsbi-arrow-down:before {
     content: "\f104";
 }
-.nzsb-business-crate-2:before {
+null.nzsbi-arrow-left:before {
     content: "\f105";
 }
-.nzsb-business-crate-3:before {
+null.nzsbi-arrow-right:before {
     content: "\f106";
 }
-.nzsb-business-crate-4:before {
+null.nzsbi-arrow-up:before {
     content: "\f107";
 }
-.nzsb-business-exclamation-1:before {
+null.nzsbi-award-1:before {
     content: "\f108";
 }
-.nzsb-business-exclamation-2:before {
+null.nzsbi-award-2:before {
     content: "\f109";
 }
-.nzsb-business-idea:before {
+null.nzsbi-board-1:before {
     content: "\f10a";
 }
-.nzsb-business-promotion:before {
+null.nzsbi-board-2:before {
     content: "\f10b";
 }
-.nzsb-business-stack:before {
+null.nzsbi-board-3:before {
     content: "\f10c";
 }
-.nzsb-business-thumbs-up:before {
+null.nzsbi-boot-1:before {
     content: "\f10d";
 }
-.nzsb-business-traffic-cone:before {
+null.nzsbi-boot-2:before {
     content: "\f10e";
 }
-.nzsb-business-wheel-barrow:before {
+null.nzsbi-boot-3:before {
     content: "\f10f";
 }
-.nzsb-businesx-award-1:before {
+null.nzsbi-boot-4:before {
     content: "\f110";
 }
-.nzsb-cafe-and-office-coffee:before {
+null.nzsbi-boot-5:before {
     content: "\f111";
 }
-.nzsb-cafe-and-office-cuttleries-1:before {
+null.nzsbi-boot-6:before {
     content: "\f112";
 }
-.nzsb-cafe-and-office-cuttleries-2:before {
+null.nzsbi-box-1:before {
     content: "\f113";
 }
-.nzsb-cafe-and-office-cuttleries-3:before {
+null.nzsbi-box-2:before {
     content: "\f114";
 }
-.nzsb-cafe-and-office-spray-bottle-2:before {
+null.nzsbi-box-3:before {
     content: "\f115";
 }
-.nzsb-cafe-and-office-spray-bottle:before {
+null.nzsbi-boxes-1:before {
     content: "\f116";
 }
-.nzsb-cafe-and-office-spray-bottles-1:before {
+null.nzsbi-calendar:before {
     content: "\f117";
 }
-.nzsb-cafe-and-office-spray-bottles-2:before {
+null.nzsbi-career:before {
     content: "\f118";
 }
-.nzsb-cafe-and-office-spray-bottles-3:before {
+null.nzsbi-cart:before {
     content: "\f119";
 }
-.nzsb-cafe-and-office-stapler:before {
+null.nzsbi-catalogue-1:before {
     content: "\f11a";
 }
-.nzsb-cafe-and-office-stationary:before {
+null.nzsbi-catalogue-2:before {
     content: "\f11b";
 }
-.nzsb-cafe-and-office-take-away-cup:before {
+null.nzsbi-catalogue-3:before {
     content: "\f11c";
 }
-.nzsb-cafe-and-office-tea:before {
+null.nzsbi-catalogue:before {
     content: "\f11d";
 }
-.nzsb-industrial-gas-detector-1:before {
+null.nzsbi-check:before {
     content: "\f11e";
 }
-.nzsb-industrial-gas-detector-2:before {
+null.nzsbi-checked-clipboard:before {
     content: "\f11f";
 }
-.nzsb-industrial-gas-flame-1:before {
+null.nzsbi-checked-shield:before {
     content: "\f120";
 }
-.nzsb-industrial-gas-flame-2:before {
+null.nzsbi-chevron-down:before {
     content: "\f121";
 }
-.nzsb-industrial-gas-gauge-1:before {
+null.nzsbi-chevron-up:before {
     content: "\f122";
 }
-.nzsb-industrial-gas-gauge-2:before {
+null.nzsbi-clear-rounded:before {
     content: "\f123";
 }
-.nzsb-industrial-gas-gauge-3:before {
+null.nzsbi-click:before {
     content: "\f124";
 }
-.nzsb-industrial-gas-gauge-4:before {
+null.nzsbi-close:before {
     content: "\f125";
 }
-.nzsb-industrial-gas-hose-1:before {
+null.nzsbi-coffee:before {
     content: "\f126";
 }
-.nzsb-industrial-gas-hose-2:before {
+null.nzsbi-cog-1:before {
     content: "\f127";
 }
-.nzsb-industrial-gas-hose-3:before {
+null.nzsbi-cog-2:before {
     content: "\f128";
 }
-.nzsb-industrial-gas-hose-4:before {
+null.nzsbi-cog-3:before {
     content: "\f129";
 }
-.nzsb-industrial-gas-leak-1:before {
+null.nzsbi-crate-1:before {
     content: "\f12a";
 }
-.nzsb-industrial-gas-valve-1:before {
+null.nzsbi-crate-2:before {
     content: "\f12b";
 }
-.nzsb-industrial-gas-valve-2:before {
+null.nzsbi-crate-3:before {
     content: "\f12c";
 }
-.nzsb-industrial-gas-valve-3:before {
+null.nzsbi-crate-4:before {
     content: "\f12d";
 }
-.nzsb-industrial-gas-valve-4:before {
+null.nzsbi-credit-card:before {
     content: "\f12e";
 }
-.nzsb-industrial-gas-valve-5:before {
+null.nzsbi-crossed-clipboard:before {
     content: "\f12f";
 }
-.nzsb-industrial-adhesive-gun:before {
+null.nzsbi-crossed-heart:before {
     content: "\f130";
 }
-.nzsb-industrial-hook:before {
+null.nzsbi-cuttleries-1:before {
     content: "\f131";
 }
-.nzsb-industrial-lubricant-1:before {
+null.nzsbi-cuttleries-2:before {
     content: "\f132";
 }
-.nzsb-industrial-lubricant-2:before {
+null.nzsbi-cuttleries-3:before {
     content: "\f133";
 }
-.nzsb-industrial-lubricant-3:before {
+null.nzsbi-cycle:before {
     content: "\f134";
 }
-.nzsb-industrial-nut-and-bolt:before {
+null.nzsbi-detector-1:before {
     content: "\f135";
 }
-.nzsb-industrial-plug-base:before {
+null.nzsbi-detector-2:before {
     content: "\f136";
 }
-.nzsb-industrial-pully:before {
+null.nzsbi-document:before {
     content: "\f137";
 }
-.nzsb-packaging-box-1:before {
+null.nzsbi-dollar-1:before {
     content: "\f138";
 }
-.nzsb-packaging-box-2:before {
+null.nzsbi-dollar-2:before {
     content: "\f139";
 }
-.nzsb-packaging-box-3:before {
+null.nzsbi-download-cloud:before {
     content: "\f13a";
 }
-.nzsb-packaging-boxes-1:before {
+null.nzsbi-download:before {
     content: "\f13b";
 }
-.nzsb-packaging-checked-clipboard:before {
+null.nzsbi-drill:before {
     content: "\f13c";
 }
-.nzsb-packaging-crossed-clipboard:before {
+null.nzsbi-edit:before {
     content: "\f13d";
 }
-.nzsb-packaging-roll-1:before {
+null.nzsbi-email:before {
     content: "\f13e";
 }
-.nzsb-packaging-roll-2:before {
+null.nzsbi-exclamation-1:before {
     content: "\f13f";
 }
-.nzsb-packaging-roll-3:before {
+null.nzsbi-exclamation-2:before {
     content: "\f140";
 }
-.nzsb-packaging-roll-4:before {
+null.nzsbi-exit:before {
     content: "\f141";
 }
-.nzsb-packaging-roll-5:before {
+null.nzsbi-expand-1:before {
     content: "\f142";
 }
-.nzsb-packaging-roll-6:before {
+null.nzsbi-expand:before {
     content: "\f143";
 }
-.nzsb-packaging-tape-1:before {
+null.nzsbi-external-link:before {
     content: "\f144";
 }
-.nzsb-packaging-tape-2:before {
+null.nzsbi-extinuisher-1:before {
     content: "\f145";
 }
-.nzsb-packaging-tape-3:before {
+null.nzsbi-extinuisher-2:before {
     content: "\f146";
 }
-.nzsb-packaging-tape-4:before {
+null.nzsbi-extinuisher-3:before {
     content: "\f147";
 }
-.nzsb-packaging-tape-5:before {
+null.nzsbi-eye:before {
     content: "\f148";
 }
-.nzsb-packaging-two-rolls-1:before {
+null.nzsbi-filter:before {
     content: "\f149";
 }
-.nzsb-safety-and-ppe-glove:before {
+null.nzsbi-fire-exit-1:before {
     content: "\f14a";
 }
-.nzsb-safety-and-ppe-masked-face:before {
+null.nzsbi-fire-exit-2:before {
     content: "\f14b";
 }
-.nzsb-safety-and-ppe-safety-goggles:before {
+null.nzsbi-flame-1:before {
     content: "\f14c";
 }
-.nzsb-safety-helmet-on-1:before {
+null.nzsbi-flame-2:before {
     content: "\f14d";
 }
-.nzsb-safety-helmet-on-2:before {
+null.nzsbi-flood:before {
     content: "\f14e";
 }
-.nzsb-signage-board-1:before {
+null.nzsbi-gauge-1:before {
     content: "\f14f";
 }
-.nzsb-signage-board-2:before {
+null.nzsbi-gauge-2:before {
     content: "\f150";
 }
-.nzsb-signage-board-3:before {
+null.nzsbi-gauge-3:before {
     content: "\f151";
 }
-.nzsb-signage-exit:before {
+null.nzsbi-gauge-4:before {
     content: "\f152";
 }
-.nzsb-signage-extinuisher-1:before {
+null.nzsbi-glove:before {
     content: "\f153";
 }
-.nzsb-signage-extinuisher-2:before {
+null.nzsbi-gloves:before {
     content: "\f154";
 }
-.nzsb-signage-extinuisher-3:before {
+null.nzsbi-green-house:before {
     content: "\f155";
 }
-.nzsb-signage-fire-exit-1:before {
+null.nzsbi-grid:before {
     content: "\f156";
 }
-.nzsb-signage-fire-exit-2:before {
+null.nzsbi-hammer:before {
     content: "\f157";
 }
-.nzsb-sustainability-flood:before {
+null.nzsbi-heart:before {
     content: "\f158";
 }
-.nzsb-sustainability-green-house:before {
+null.nzsbi-helmet-on-1:before {
     content: "\f159";
 }
-.nzsb-sustainability-rain:before {
+null.nzsbi-helmet-on-2:before {
     content: "\f15a";
 }
-.nzsb-sustainability-sun:before {
+null.nzsbi-history:before {
     content: "\f15b";
 }
-.nzsb-sustainability-tree:before {
+null.nzsbi-hook:before {
     content: "\f15c";
 }
-.nzsb-system-abrasives:before {
+null.nzsbi-hose-1:before {
     content: "\f15d";
 }
-.nzsb-system-angled-arrow:before {
+null.nzsbi-hose-2:before {
     content: "\f15e";
 }
-.nzsb-system-arrow-down:before {
+null.nzsbi-hose-3:before {
     content: "\f15f";
 }
-.nzsb-system-arrow-left:before {
+null.nzsbi-hose-4:before {
     content: "\f160";
 }
-.nzsb-system-arrow-right:before {
+null.nzsbi-hour-glass:before {
     content: "\f161";
 }
-.nzsb-system-arrow-up:before {
+null.nzsbi-idea:before {
     content: "\f162";
 }
-.nzsb-system-calendar:before {
+null.nzsbi-info-squared:before {
     content: "\f163";
 }
-.nzsb-system-cart:before {
+null.nzsbi-info:before {
     content: "\f164";
 }
-.nzsb-system-catalogue-1:before {
+null.nzsbi-leak-1:before {
     content: "\f165";
 }
-.nzsb-system-catalogue-2:before {
+null.nzsbi-link:before {
     content: "\f166";
 }
-.nzsb-system-catalogue-3:before {
+null.nzsbi-loader:before {
     content: "\f167";
 }
-.nzsb-system-catalogue:before {
+null.nzsbi-location-pin:before {
     content: "\f168";
 }
-.nzsb-system-check:before {
+null.nzsbi-lock:before {
     content: "\f169";
 }
-.nzsb-system-chevron-down:before {
+null.nzsbi-lubricant-1:before {
     content: "\f16a";
 }
-.nzsb-system-chevron-left:before {
+null.nzsbi-lubricant-2:before {
     content: "\f16b";
 }
-.nzsb-system-chevron-right:before {
+null.nzsbi-lubricant-3:before {
     content: "\f16c";
 }
-.nzsb-system-chevron-up:before {
+null.nzsbi-mask:before {
     content: "\f16d";
 }
-.nzsb-system-clear-rounded:before {
+null.nzsbi-masked-face:before {
     content: "\f16e";
 }
-.nzsb-system-click:before {
+null.nzsbi-message-bubble:before {
     content: "\f16f";
 }
-.nzsb-system-close:before {
+null.nzsbi-message:before {
     content: "\f170";
 }
-.nzsb-system-cog-1:before {
+null.nzsbi-minimize:before {
     content: "\f171";
 }
-.nzsb-system-cog-2:before {
+null.nzsbi-minus:before {
     content: "\f172";
 }
-.nzsb-system-cog-3:before {
+null.nzsbi-mobile:before {
     content: "\f173";
 }
-.nzsb-system-credit-card:before {
+null.nzsbi-more:before {
     content: "\f174";
 }
-.nzsb-system-crossed-heart:before {
+null.nzsbi-news-1:before {
     content: "\f175";
 }
-.nzsb-system-cycle:before {
+null.nzsbi-news-2:before {
     content: "\f176";
 }
-.nzsb-system-document:before {
+null.nzsbi-non-catalogue:before {
     content: "\f177";
 }
-.nzsb-system-dollar-1:before {
+null.nzsbi-nut-and-bolt:before {
     content: "\f178";
 }
-.nzsb-system-dollar-2:before {
+null.nzsbi-online:before {
     content: "\f179";
 }
-.nzsb-system-download-cloud:before {
+null.nzsbi-open-credit-account:before {
     content: "\f17a";
 }
-.nzsb-system-download:before {
+null.nzsbi-outlined-arrow-up:before {
     content: "\f17b";
 }
-.nzsb-system-edit:before {
+null.nzsbi-overall:before {
     content: "\f17c";
 }
-.nzsb-system-email:before {
+null.nzsbi-paint-roll:before {
     content: "\f17d";
 }
-.nzsb-system-expand-1:before {
+null.nzsbi-phone:before {
     content: "\f17e";
 }
-.nzsb-system-expand:before {
+null.nzsbi-pliers:before {
     content: "\f17f";
 }
-.nzsb-system-external-link:before {
+null.nzsbi-plug-base:before {
     content: "\f180";
 }
-.nzsb-system-eye:before {
+null.nzsbi-plus:before {
     content: "\f181";
 }
-.nzsb-system-filter:before {
+null.nzsbi-print:before {
     content: "\f182";
 }
-.nzsb-system-grid:before {
+null.nzsbi-promotion:before {
     content: "\f183";
 }
-.nzsb-system-heart:before {
+null.nzsbi-pully:before {
     content: "\f184";
 }
-.nzsb-system-history:before {
+null.nzsbi-question-double-lined:before {
     content: "\f185";
 }
-.nzsb-system-hour-glass:before {
+null.nzsbi-question-double-lined&#x3D;rounded:before {
     content: "\f186";
 }
-.nzsb-system-info-squared:before {
+null.nzsbi-question-rounded:before {
     content: "\f187";
 }
-.nzsb-system-info:before {
+null.nzsbi-rain:before {
     content: "\f188";
 }
-.nzsb-system-link:before {
+null.nzsbi-roll-1:before {
     content: "\f189";
 }
-.nzsb-system-loader:before {
+null.nzsbi-roll-2:before {
     content: "\f18a";
 }
-.nzsb-system-location-pin:before {
+null.nzsbi-roll-3:before {
     content: "\f18b";
 }
-.nzsb-system-lock:before {
+null.nzsbi-roll-4:before {
     content: "\f18c";
 }
-.nzsb-system-message-bubble:before {
+null.nzsbi-roll-5:before {
     content: "\f18d";
 }
-.nzsb-system-message:before {
+null.nzsbi-roll-6:before {
     content: "\f18e";
 }
-.nzsb-system-minimize:before {
+null.nzsbi-safety-goggles:before {
     content: "\f18f";
 }
-.nzsb-system-minus:before {
+null.nzsbi-save:before {
     content: "\f190";
 }
-.nzsb-system-mobile:before {
+null.nzsbi-search:before {
     content: "\f191";
 }
-.nzsb-system-more:before {
+null.nzsbi-share:before {
     content: "\f192";
 }
-.nzsb-system-news-1:before {
+null.nzsbi-spanner-screw-driver:before {
     content: "\f193";
 }
-.nzsb-system-news-2:before {
+null.nzsbi-spanner:before {
     content: "\f194";
 }
-.nzsb-system-non-catalogue:before {
+null.nzsbi-spray-bottle-2:before {
     content: "\f195";
 }
-.nzsb-system-online:before {
+null.nzsbi-spray-bottle:before {
     content: "\f196";
 }
-.nzsb-system-open-credit-account:before {
+null.nzsbi-spray-bottles-1:before {
     content: "\f197";
 }
-.nzsb-system-outlined-arrow-up:before {
+null.nzsbi-spray-bottles-2:before {
     content: "\f198";
 }
-.nzsb-system-phone:before {
+null.nzsbi-spray-bottles-3:before {
     content: "\f199";
 }
-.nzsb-system-plus:before {
+null.nzsbi-stack:before {
     content: "\f19a";
 }
-.nzsb-system-print:before {
+null.nzsbi-stapler:before {
     content: "\f19b";
 }
-.nzsb-system-question-double-lined-rounded:before {
+null.nzsbi-stationary:before {
     content: "\f19c";
 }
-.nzsb-system-question-double-lined:before {
+null.nzsbi-sun:before {
     content: "\f19d";
 }
-.nzsb-system-question-rounded:before {
+null.nzsbi-swap:before {
     content: "\f19e";
 }
-.nzsb-system-save:before {
+null.nzsbi-take-away-cup:before {
     content: "\f19f";
 }
-.nzsb-system-search:before {
+null.nzsbi-tape-1:before {
     content: "\f1a0";
 }
-.nzsb-system-share:before {
+null.nzsbi-tape-2:before {
     content: "\f1a1";
 }
-.nzsb-system-swap:before {
+null.nzsbi-tape-3:before {
     content: "\f1a2";
 }
-.nzsb-system-truck:before {
+null.nzsbi-tape-4:before {
     content: "\f1a3";
 }
-.nzsb-system-user-default:before {
+null.nzsbi-tape-5:before {
     content: "\f1a4";
 }
-.nzsb-system-user-group:before {
+null.nzsbi-tea:before {
     content: "\f1a5";
 }
-.nzsb-system-user-profile:before {
+null.nzsbi-traffic-cone:before {
     content: "\f1a6";
 }
-.nzsb-system-zoom-in:before {
+null.nzsbi-tree:before {
     content: "\f1a7";
 }
-.nzsb-tools-drill:before {
+null.nzsbi-truck:before {
     content: "\f1a8";
 }
-.nzsb-tools-hammer:before {
+null.nzsbi-two-rolls-1:before {
     content: "\f1a9";
 }
-.nzsb-tools-paint-roll:before {
+null.nzsbi-user-default:before {
     content: "\f1aa";
 }
-.nzsb-tools-pliers:before {
+null.nzsbi-user-group:before {
     content: "\f1ab";
 }
-.nzsb-tools-spanner-screw-driver:before {
+null.nzsbi-user-profile:before {
     content: "\f1ac";
 }
-.nzsb-tools-spanner:before {
+null.nzsbi-Valve-1:before {
     content: "\f1ad";
 }
-.nzsb-Valves-and-Instrumentation_-Valve-1:before {
+null.nzsbi-valve-1:before {
     content: "\f1ae";
 }
-.nzsb-wearables-boot-1:before {
+null.nzsbi-valve-2:before {
     content: "\f1af";
 }
-.nzsb-wearables-boot-2:before {
+null.nzsbi-valve-3:before {
     content: "\f1b0";
 }
-.nzsb-wearables-boot-3:before {
+null.nzsbi-valve-4:before {
     content: "\f1b1";
 }
-.nzsb-wearables-boot-4:before {
+null.nzsbi-valve-5:before {
     content: "\f1b2";
 }
-.nzsb-wearables-boot-5:before {
+null.nzsbi-wheel-barrow:before {
     content: "\f1b3";
 }
-.nzsb-wearables-boot-6:before {
+null.nzsbi-zoom-in:before {
     content: "\f1b4";
-}
-.nzsb-wearables-gloves:before {
-    content: "\f1b5";
-}
-.nzsb-wearables-mask:before {
-    content: "\f1b6";
-}
-.nzsb-wearables-overall:before {
-    content: "\f1b7";
 }
