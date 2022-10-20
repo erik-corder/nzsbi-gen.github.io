@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "test": "jest --config jestconfig.json",
-    "build": "fantasticon \"src/icon-src\" -o fonts --name nzsb --prefix nzsbi --selector null --tag i",
+    "build": "fantasticon --config .fantasticonrc.js",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
     "prepare": "npm run build",
