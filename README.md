@@ -3,1709 +3,1523 @@
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>nzsb</title>
+  <head>
+    <meta charset="UTF-8" />
+    <title>icons</title>
 
     <style>
-        body {
-            font-family: sans-serif;
-            margin: 0;
-            padding: 10px 20px;
-            text-align: center;
-        }
-        .preview {
-            width: 100px;
-            display: inline-block;
-            margin: 10px;
-        }
-        .preview .inner {
-            display: inline-block;
-            width: 100%;
-            text-align: center;
-            background: #f5f5f5;
-            -webkit-border-radius: 3px 3px 0 0;
-            -moz-border-radius: 3px 3px 0 0;
-            border-radius: 3px 3px 0 0;
-        }
-        .preview .inner  {
-            line-height: 85px;
-            font-size: 40px;
-            color: #333;
-        }
-        .label {
-            display: inline-block;
-            width: 100%;
-            box-sizing: border-box;
-            padding: 5px;
-            font-size: 10px;
-            font-family: Monaco, monospace;
-            color: #666;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            background: #ddd;
-            -webkit-border-radius: 0 0 3px 3px;
-            -moz-border-radius: 0 0 3px 3px;
-            border-radius: 0 0 3px 3px;
-            color: #666;
-        }
+      body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 10px 20px;
+        text-align: center;
+      }
+      .preview {
+        width: 100px;
+        display: inline-block;
+        margin: 10px;
+      }
+      .preview .inner {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        background: #f5f5f5;
+        -webkit-border-radius: 3px 3px 0 0;
+        -moz-border-radius: 3px 3px 0 0;
+        border-radius: 3px 3px 0 0;
+      }
+      .preview .inner {
+        line-height: 85px;
+        font-size: 40px;
+        color: #333;
+      }
+      .label {
+        display: inline-block;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 5px;
+        font-size: 10px;
+        font-family: Monaco, monospace;
+        color: #666;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        background: #ddd;
+        -webkit-border-radius: 0 0 3px 3px;
+        -moz-border-radius: 0 0 3px 3px;
+        border-radius: 0 0 3px 3px;
+        color: #666;
+      }
     </style>
 
-    <link rel="stylesheet" type="text/css" href="nzsb.css" />
-</head>
-<body>
-
-    <h1>nzsb</h1>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-business-award-2"></i>
-            </span>
-            <br>
-            <span class='label'>business-award-2</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-business-career"></i>
-            </span>
-            <br>
-            <span class='label'>business-career</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-business-checked-shield"></i>
-            </span>
-            <br>
-            <span class='label'>business-checked-shield</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-business-crate-1"></i>
-            </span>
-            <br>
-            <span class='label'>business-crate-1</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-business-crate-2"></i>
-            </span>
-            <br>
-            <span class='label'>business-crate-2</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-business-crate-3"></i>
-            </span>
-            <br>
-            <span class='label'>business-crate-3</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-business-crate-4"></i>
-            </span>
-            <br>
-            <span class='label'>business-crate-4</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-business-exclamation-1"></i>
-            </span>
-            <br>
-            <span class='label'>business-exclamation-1</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-business-exclamation-2"></i>
-            </span>
-            <br>
-            <span class='label'>business-exclamation-2</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-business-idea"></i>
-            </span>
-            <br>
-            <span class='label'>business-idea</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-business-promotion"></i>
-            </span>
-            <br>
-            <span class='label'>business-promotion</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-business-stack"></i>
-            </span>
-            <br>
-            <span class='label'>business-stack</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-business-thumbs-up"></i>
-            </span>
-            <br>
-            <span class='label'>business-thumbs-up</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-business-traffic-cone"></i>
-            </span>
-            <br>
-            <span class='label'>business-traffic-cone</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-business-wheel-barrow"></i>
-            </span>
-            <br>
-            <span class='label'>business-wheel-barrow</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-businesx-award-1"></i>
-            </span>
-            <br>
-            <span class='label'>businesx-award-1</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-cafe-and-office-coffee"></i>
-            </span>
-            <br>
-            <span class='label'>cafe-and-office-coffee</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-cafe-and-office-cuttleries-1"></i>
-            </span>
-            <br>
-            <span class='label'>cafe-and-office-cuttleries-1</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-cafe-and-office-cuttleries-2"></i>
-            </span>
-            <br>
-            <span class='label'>cafe-and-office-cuttleries-2</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-cafe-and-office-cuttleries-3"></i>
-            </span>
-            <br>
-            <span class='label'>cafe-and-office-cuttleries-3</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-cafe-and-office-spray-bottle-2"></i>
-            </span>
-            <br>
-            <span class='label'>cafe-and-office-spray-bottle-2</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-cafe-and-office-spray-bottle"></i>
-            </span>
-            <br>
-            <span class='label'>cafe-and-office-spray-bottle</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-cafe-and-office-spray-bottles-1"></i>
-            </span>
-            <br>
-            <span class='label'>cafe-and-office-spray-bottles-1</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-cafe-and-office-spray-bottles-2"></i>
-            </span>
-            <br>
-            <span class='label'>cafe-and-office-spray-bottles-2</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-cafe-and-office-spray-bottles-3"></i>
-            </span>
-            <br>
-            <span class='label'>cafe-and-office-spray-bottles-3</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-cafe-and-office-stapler"></i>
-            </span>
-            <br>
-            <span class='label'>cafe-and-office-stapler</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-cafe-and-office-stationary"></i>
-            </span>
-            <br>
-            <span class='label'>cafe-and-office-stationary</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-cafe-and-office-take-away-cup"></i>
-            </span>
-            <br>
-            <span class='label'>cafe-and-office-take-away-cup</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-cafe-and-office-tea"></i>
-            </span>
-            <br>
-            <span class='label'>cafe-and-office-tea</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-industrial-gas-detector-1"></i>
-            </span>
-            <br>
-            <span class='label'>industrial-gas-detector-1</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-industrial-gas-detector-2"></i>
-            </span>
-            <br>
-            <span class='label'>industrial-gas-detector-2</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-industrial-gas-flame-1"></i>
-            </span>
-            <br>
-            <span class='label'>industrial-gas-flame-1</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-industrial-gas-flame-2"></i>
-            </span>
-            <br>
-            <span class='label'>industrial-gas-flame-2</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-industrial-gas-gauge-1"></i>
-            </span>
-            <br>
-            <span class='label'>industrial-gas-gauge-1</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-industrial-gas-gauge-2"></i>
-            </span>
-            <br>
-            <span class='label'>industrial-gas-gauge-2</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-industrial-gas-gauge-3"></i>
-            </span>
-            <br>
-            <span class='label'>industrial-gas-gauge-3</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-industrial-gas-gauge-4"></i>
-            </span>
-            <br>
-            <span class='label'>industrial-gas-gauge-4</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-industrial-gas-hose-1"></i>
-            </span>
-            <br>
-            <span class='label'>industrial-gas-hose-1</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-industrial-gas-hose-2"></i>
-            </span>
-            <br>
-            <span class='label'>industrial-gas-hose-2</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-industrial-gas-hose-3"></i>
-            </span>
-            <br>
-            <span class='label'>industrial-gas-hose-3</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-industrial-gas-hose-4"></i>
-            </span>
-            <br>
-            <span class='label'>industrial-gas-hose-4</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-industrial-gas-leak-1"></i>
-            </span>
-            <br>
-            <span class='label'>industrial-gas-leak-1</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-industrial-gas-valve-1"></i>
-            </span>
-            <br>
-            <span class='label'>industrial-gas-valve-1</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-industrial-gas-valve-2"></i>
-            </span>
-            <br>
-            <span class='label'>industrial-gas-valve-2</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-industrial-gas-valve-3"></i>
-            </span>
-            <br>
-            <span class='label'>industrial-gas-valve-3</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-industrial-gas-valve-4"></i>
-            </span>
-            <br>
-            <span class='label'>industrial-gas-valve-4</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-industrial-gas-valve-5"></i>
-            </span>
-            <br>
-            <span class='label'>industrial-gas-valve-5</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-industrial-adhesive-gun"></i>
-            </span>
-            <br>
-            <span class='label'>industrial-adhesive-gun</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-industrial-hook"></i>
-            </span>
-            <br>
-            <span class='label'>industrial-hook</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-industrial-lubricant-1"></i>
-            </span>
-            <br>
-            <span class='label'>industrial-lubricant-1</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-industrial-lubricant-2"></i>
-            </span>
-            <br>
-            <span class='label'>industrial-lubricant-2</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-industrial-lubricant-3"></i>
-            </span>
-            <br>
-            <span class='label'>industrial-lubricant-3</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-industrial-nut-and-bolt"></i>
-            </span>
-            <br>
-            <span class='label'>industrial-nut-and-bolt</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-industrial-plug-base"></i>
-            </span>
-            <br>
-            <span class='label'>industrial-plug-base</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-industrial-pully"></i>
-            </span>
-            <br>
-            <span class='label'>industrial-pully</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-packaging-box-1"></i>
-            </span>
-            <br>
-            <span class='label'>packaging-box-1</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-packaging-box-2"></i>
-            </span>
-            <br>
-            <span class='label'>packaging-box-2</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-packaging-box-3"></i>
-            </span>
-            <br>
-            <span class='label'>packaging-box-3</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-packaging-boxes-1"></i>
-            </span>
-            <br>
-            <span class='label'>packaging-boxes-1</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-packaging-checked-clipboard"></i>
-            </span>
-            <br>
-            <span class='label'>packaging-checked-clipboard</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-packaging-crossed-clipboard"></i>
-            </span>
-            <br>
-            <span class='label'>packaging-crossed-clipboard</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-packaging-roll-1"></i>
-            </span>
-            <br>
-            <span class='label'>packaging-roll-1</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-packaging-roll-2"></i>
-            </span>
-            <br>
-            <span class='label'>packaging-roll-2</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-packaging-roll-3"></i>
-            </span>
-            <br>
-            <span class='label'>packaging-roll-3</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-packaging-roll-4"></i>
-            </span>
-            <br>
-            <span class='label'>packaging-roll-4</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-packaging-roll-5"></i>
-            </span>
-            <br>
-            <span class='label'>packaging-roll-5</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-packaging-roll-6"></i>
-            </span>
-            <br>
-            <span class='label'>packaging-roll-6</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-packaging-tape-1"></i>
-            </span>
-            <br>
-            <span class='label'>packaging-tape-1</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-packaging-tape-2"></i>
-            </span>
-            <br>
-            <span class='label'>packaging-tape-2</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-packaging-tape-3"></i>
-            </span>
-            <br>
-            <span class='label'>packaging-tape-3</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-packaging-tape-4"></i>
-            </span>
-            <br>
-            <span class='label'>packaging-tape-4</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-packaging-tape-5"></i>
-            </span>
-            <br>
-            <span class='label'>packaging-tape-5</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-packaging-two-rolls-1"></i>
-            </span>
-            <br>
-            <span class='label'>packaging-two-rolls-1</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-safety-and-ppe-glove"></i>
-            </span>
-            <br>
-            <span class='label'>safety-and-ppe-glove</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-safety-and-ppe-masked-face"></i>
-            </span>
-            <br>
-            <span class='label'>safety-and-ppe-masked-face</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-safety-and-ppe-safety-goggles"></i>
-            </span>
-            <br>
-            <span class='label'>safety-and-ppe-safety-goggles</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-safety-helmet-on-1"></i>
-            </span>
-            <br>
-            <span class='label'>safety-helmet-on-1</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-safety-helmet-on-2"></i>
-            </span>
-            <br>
-            <span class='label'>safety-helmet-on-2</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-signage-board-1"></i>
-            </span>
-            <br>
-            <span class='label'>signage-board-1</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-signage-board-2"></i>
-            </span>
-            <br>
-            <span class='label'>signage-board-2</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-signage-board-3"></i>
-            </span>
-            <br>
-            <span class='label'>signage-board-3</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-signage-exit"></i>
-            </span>
-            <br>
-            <span class='label'>signage-exit</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-signage-extinuisher-1"></i>
-            </span>
-            <br>
-            <span class='label'>signage-extinuisher-1</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-signage-extinuisher-2"></i>
-            </span>
-            <br>
-            <span class='label'>signage-extinuisher-2</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-signage-extinuisher-3"></i>
-            </span>
-            <br>
-            <span class='label'>signage-extinuisher-3</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-signage-fire-exit-1"></i>
-            </span>
-            <br>
-            <span class='label'>signage-fire-exit-1</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-signage-fire-exit-2"></i>
-            </span>
-            <br>
-            <span class='label'>signage-fire-exit-2</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-sustainability-flood"></i>
-            </span>
-            <br>
-            <span class='label'>sustainability-flood</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-sustainability-green-house"></i>
-            </span>
-            <br>
-            <span class='label'>sustainability-green-house</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-sustainability-rain"></i>
-            </span>
-            <br>
-            <span class='label'>sustainability-rain</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-sustainability-sun"></i>
-            </span>
-            <br>
-            <span class='label'>sustainability-sun</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-sustainability-tree"></i>
-            </span>
-            <br>
-            <span class='label'>sustainability-tree</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-abrasives"></i>
-            </span>
-            <br>
-            <span class='label'>system-abrasives</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-angled-arrow"></i>
-            </span>
-            <br>
-            <span class='label'>system-angled-arrow</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-arrow-down"></i>
-            </span>
-            <br>
-            <span class='label'>system-arrow-down</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-arrow-left"></i>
-            </span>
-            <br>
-            <span class='label'>system-arrow-left</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-arrow-right"></i>
-            </span>
-            <br>
-            <span class='label'>system-arrow-right</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-arrow-up"></i>
-            </span>
-            <br>
-            <span class='label'>system-arrow-up</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-calendar"></i>
-            </span>
-            <br>
-            <span class='label'>system-calendar</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-cart"></i>
-            </span>
-            <br>
-            <span class='label'>system-cart</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-catalogue-1"></i>
-            </span>
-            <br>
-            <span class='label'>system-catalogue-1</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-catalogue-2"></i>
-            </span>
-            <br>
-            <span class='label'>system-catalogue-2</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-catalogue-3"></i>
-            </span>
-            <br>
-            <span class='label'>system-catalogue-3</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-catalogue"></i>
-            </span>
-            <br>
-            <span class='label'>system-catalogue</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-check"></i>
-            </span>
-            <br>
-            <span class='label'>system-check</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-chevron-down"></i>
-            </span>
-            <br>
-            <span class='label'>system-chevron-down</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-chevron-left"></i>
-            </span>
-            <br>
-            <span class='label'>system-chevron-left</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-chevron-right"></i>
-            </span>
-            <br>
-            <span class='label'>system-chevron-right</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-chevron-up"></i>
-            </span>
-            <br>
-            <span class='label'>system-chevron-up</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-clear-rounded"></i>
-            </span>
-            <br>
-            <span class='label'>system-clear-rounded</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-click"></i>
-            </span>
-            <br>
-            <span class='label'>system-click</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-close"></i>
-            </span>
-            <br>
-            <span class='label'>system-close</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-cog-1"></i>
-            </span>
-            <br>
-            <span class='label'>system-cog-1</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-cog-2"></i>
-            </span>
-            <br>
-            <span class='label'>system-cog-2</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-cog-3"></i>
-            </span>
-            <br>
-            <span class='label'>system-cog-3</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-credit-card"></i>
-            </span>
-            <br>
-            <span class='label'>system-credit-card</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-crossed-heart"></i>
-            </span>
-            <br>
-            <span class='label'>system-crossed-heart</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-cycle"></i>
-            </span>
-            <br>
-            <span class='label'>system-cycle</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-document"></i>
-            </span>
-            <br>
-            <span class='label'>system-document</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-dollar-1"></i>
-            </span>
-            <br>
-            <span class='label'>system-dollar-1</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-dollar-2"></i>
-            </span>
-            <br>
-            <span class='label'>system-dollar-2</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-download-cloud"></i>
-            </span>
-            <br>
-            <span class='label'>system-download-cloud</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-download"></i>
-            </span>
-            <br>
-            <span class='label'>system-download</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-edit"></i>
-            </span>
-            <br>
-            <span class='label'>system-edit</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-email"></i>
-            </span>
-            <br>
-            <span class='label'>system-email</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-expand-1"></i>
-            </span>
-            <br>
-            <span class='label'>system-expand-1</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-expand"></i>
-            </span>
-            <br>
-            <span class='label'>system-expand</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-external-link"></i>
-            </span>
-            <br>
-            <span class='label'>system-external-link</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-eye"></i>
-            </span>
-            <br>
-            <span class='label'>system-eye</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-filter"></i>
-            </span>
-            <br>
-            <span class='label'>system-filter</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-grid"></i>
-            </span>
-            <br>
-            <span class='label'>system-grid</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-heart"></i>
-            </span>
-            <br>
-            <span class='label'>system-heart</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-history"></i>
-            </span>
-            <br>
-            <span class='label'>system-history</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-hour-glass"></i>
-            </span>
-            <br>
-            <span class='label'>system-hour-glass</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-info-squared"></i>
-            </span>
-            <br>
-            <span class='label'>system-info-squared</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-info"></i>
-            </span>
-            <br>
-            <span class='label'>system-info</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-link"></i>
-            </span>
-            <br>
-            <span class='label'>system-link</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-loader"></i>
-            </span>
-            <br>
-            <span class='label'>system-loader</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-location-pin"></i>
-            </span>
-            <br>
-            <span class='label'>system-location-pin</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-lock"></i>
-            </span>
-            <br>
-            <span class='label'>system-lock</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-message-bubble"></i>
-            </span>
-            <br>
-            <span class='label'>system-message-bubble</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-message"></i>
-            </span>
-            <br>
-            <span class='label'>system-message</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-minimize"></i>
-            </span>
-            <br>
-            <span class='label'>system-minimize</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-minus"></i>
-            </span>
-            <br>
-            <span class='label'>system-minus</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-mobile"></i>
-            </span>
-            <br>
-            <span class='label'>system-mobile</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-more"></i>
-            </span>
-            <br>
-            <span class='label'>system-more</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-news-1"></i>
-            </span>
-            <br>
-            <span class='label'>system-news-1</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-news-2"></i>
-            </span>
-            <br>
-            <span class='label'>system-news-2</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-non-catalogue"></i>
-            </span>
-            <br>
-            <span class='label'>system-non-catalogue</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-online"></i>
-            </span>
-            <br>
-            <span class='label'>system-online</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-open-credit-account"></i>
-            </span>
-            <br>
-            <span class='label'>system-open-credit-account</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-outlined-arrow-up"></i>
-            </span>
-            <br>
-            <span class='label'>system-outlined-arrow-up</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-phone"></i>
-            </span>
-            <br>
-            <span class='label'>system-phone</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-plus"></i>
-            </span>
-            <br>
-            <span class='label'>system-plus</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-print"></i>
-            </span>
-            <br>
-            <span class='label'>system-print</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-question-double-lined-rounded"></i>
-            </span>
-            <br>
-            <span class='label'>system-question-double-lined-rounded</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-question-double-lined"></i>
-            </span>
-            <br>
-            <span class='label'>system-question-double-lined</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-question-rounded"></i>
-            </span>
-            <br>
-            <span class='label'>system-question-rounded</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-save"></i>
-            </span>
-            <br>
-            <span class='label'>system-save</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-search"></i>
-            </span>
-            <br>
-            <span class='label'>system-search</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-share"></i>
-            </span>
-            <br>
-            <span class='label'>system-share</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-swap"></i>
-            </span>
-            <br>
-            <span class='label'>system-swap</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-truck"></i>
-            </span>
-            <br>
-            <span class='label'>system-truck</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-user-default"></i>
-            </span>
-            <br>
-            <span class='label'>system-user-default</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-user-group"></i>
-            </span>
-            <br>
-            <span class='label'>system-user-group</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-user-profile"></i>
-            </span>
-            <br>
-            <span class='label'>system-user-profile</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-system-zoom-in"></i>
-            </span>
-            <br>
-            <span class='label'>system-zoom-in</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-tools-drill"></i>
-            </span>
-            <br>
-            <span class='label'>tools-drill</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-tools-hammer"></i>
-            </span>
-            <br>
-            <span class='label'>tools-hammer</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-tools-paint-roll"></i>
-            </span>
-            <br>
-            <span class='label'>tools-paint-roll</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-tools-pliers"></i>
-            </span>
-            <br>
-            <span class='label'>tools-pliers</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-tools-spanner-screw-driver"></i>
-            </span>
-            <br>
-            <span class='label'>tools-spanner-screw-driver</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-tools-spanner"></i>
-            </span>
-            <br>
-            <span class='label'>tools-spanner</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-Valves-and-Instrumentation_-Valve-1"></i>
-            </span>
-            <br>
-            <span class='label'>Valves-and-Instrumentation_-Valve-1</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-wearables-boot-1"></i>
-            </span>
-            <br>
-            <span class='label'>wearables-boot-1</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-wearables-boot-2"></i>
-            </span>
-            <br>
-            <span class='label'>wearables-boot-2</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-wearables-boot-3"></i>
-            </span>
-            <br>
-            <span class='label'>wearables-boot-3</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-wearables-boot-4"></i>
-            </span>
-            <br>
-            <span class='label'>wearables-boot-4</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-wearables-boot-5"></i>
-            </span>
-            <br>
-            <span class='label'>wearables-boot-5</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-wearables-boot-6"></i>
-            </span>
-            <br>
-            <span class='label'>wearables-boot-6</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-wearables-gloves"></i>
-            </span>
-            <br>
-            <span class='label'>wearables-gloves</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-wearables-mask"></i>
-            </span>
-            <br>
-            <span class='label'>wearables-mask</span>
-        </div>
-
-
-        <div class="preview">
-            <span class="inner">
-                <i class="nzsb nzsb-wearables-overall"></i>
-            </span>
-            <br>
-            <span class='label'>wearables-overall</span>
-        </div>
-
-
-</body>
+    <link rel="stylesheet" type="text/css" href="icons.css" />
+  </head>
+  <body>
+    <h1>icons</h1>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-abrasives"></i>
+      </span>
+      <br />
+      <span class="label">abrasives</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-adhesive-gun"></i>
+      </span>
+      <br />
+      <span class="label">adhesive-gun</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-angled-arrow"></i>
+      </span>
+      <br />
+      <span class="label">angled-arrow</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-arrow-down"></i>
+      </span>
+      <br />
+      <span class="label">arrow-down</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-arrow-left"></i>
+      </span>
+      <br />
+      <span class="label">arrow-left</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-arrow-right"></i>
+      </span>
+      <br />
+      <span class="label">arrow-right</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-arrow-up"></i>
+      </span>
+      <br />
+      <span class="label">arrow-up</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-award-1"></i>
+      </span>
+      <br />
+      <span class="label">award-1</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-award-2"></i>
+      </span>
+      <br />
+      <span class="label">award-2</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-board-1"></i>
+      </span>
+      <br />
+      <span class="label">board-1</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-board-2"></i>
+      </span>
+      <br />
+      <span class="label">board-2</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-board-3"></i>
+      </span>
+      <br />
+      <span class="label">board-3</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-boot-1"></i>
+      </span>
+      <br />
+      <span class="label">boot-1</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-boot-2"></i>
+      </span>
+      <br />
+      <span class="label">boot-2</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-boot-3"></i>
+      </span>
+      <br />
+      <span class="label">boot-3</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-boot-4"></i>
+      </span>
+      <br />
+      <span class="label">boot-4</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-boot-5"></i>
+      </span>
+      <br />
+      <span class="label">boot-5</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-boot-6"></i>
+      </span>
+      <br />
+      <span class="label">boot-6</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-box-1"></i>
+      </span>
+      <br />
+      <span class="label">box-1</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-box-2"></i>
+      </span>
+      <br />
+      <span class="label">box-2</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-box-3"></i>
+      </span>
+      <br />
+      <span class="label">box-3</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-boxes-1"></i>
+      </span>
+      <br />
+      <span class="label">boxes-1</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-calendar"></i>
+      </span>
+      <br />
+      <span class="label">calendar</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-career"></i>
+      </span>
+      <br />
+      <span class="label">career</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-cart"></i>
+      </span>
+      <br />
+      <span class="label">cart</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-catalogue-1"></i>
+      </span>
+      <br />
+      <span class="label">catalogue-1</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-catalogue-2"></i>
+      </span>
+      <br />
+      <span class="label">catalogue-2</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-catalogue-3"></i>
+      </span>
+      <br />
+      <span class="label">catalogue-3</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-catalogue"></i>
+      </span>
+      <br />
+      <span class="label">catalogue</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-check"></i>
+      </span>
+      <br />
+      <span class="label">check</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-checked-clipboard"></i>
+      </span>
+      <br />
+      <span class="label">checked-clipboard</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-checked-shield"></i>
+      </span>
+      <br />
+      <span class="label">checked-shield</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-chevron-down"></i>
+      </span>
+      <br />
+      <span class="label">chevron-down</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-chevron-left"></i>
+      </span>
+      <br />
+      <span class="label">chevron-left</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-chevron-right"></i>
+      </span>
+      <br />
+      <span class="label">chevron-right</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-chevron-up"></i>
+      </span>
+      <br />
+      <span class="label">chevron-up</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-clear-rounded"></i>
+      </span>
+      <br />
+      <span class="label">clear-rounded</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-click"></i>
+      </span>
+      <br />
+      <span class="label">click</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-close"></i>
+      </span>
+      <br />
+      <span class="label">close</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-coffee"></i>
+      </span>
+      <br />
+      <span class="label">coffee</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-cog-1"></i>
+      </span>
+      <br />
+      <span class="label">cog-1</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-cog-2"></i>
+      </span>
+      <br />
+      <span class="label">cog-2</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-cog-3"></i>
+      </span>
+      <br />
+      <span class="label">cog-3</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-crate-1"></i>
+      </span>
+      <br />
+      <span class="label">crate-1</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-crate-2"></i>
+      </span>
+      <br />
+      <span class="label">crate-2</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-crate-3"></i>
+      </span>
+      <br />
+      <span class="label">crate-3</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-crate-4"></i>
+      </span>
+      <br />
+      <span class="label">crate-4</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-credit-card"></i>
+      </span>
+      <br />
+      <span class="label">credit-card</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-crossed-clipboard"></i>
+      </span>
+      <br />
+      <span class="label">crossed-clipboard</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-crossed-heart"></i>
+      </span>
+      <br />
+      <span class="label">crossed-heart</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-cuttleries-1"></i>
+      </span>
+      <br />
+      <span class="label">cuttleries-1</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-cuttleries-2"></i>
+      </span>
+      <br />
+      <span class="label">cuttleries-2</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-cuttleries-3"></i>
+      </span>
+      <br />
+      <span class="label">cuttleries-3</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-cycle"></i>
+      </span>
+      <br />
+      <span class="label">cycle</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-detector-1"></i>
+      </span>
+      <br />
+      <span class="label">detector-1</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-detector-2"></i>
+      </span>
+      <br />
+      <span class="label">detector-2</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-document"></i>
+      </span>
+      <br />
+      <span class="label">document</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-dollar-1"></i>
+      </span>
+      <br />
+      <span class="label">dollar-1</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-dollar-2"></i>
+      </span>
+      <br />
+      <span class="label">dollar-2</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-download-cloud"></i>
+      </span>
+      <br />
+      <span class="label">download-cloud</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-download"></i>
+      </span>
+      <br />
+      <span class="label">download</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-drill"></i>
+      </span>
+      <br />
+      <span class="label">drill</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-edit"></i>
+      </span>
+      <br />
+      <span class="label">edit</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-email"></i>
+      </span>
+      <br />
+      <span class="label">email</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-exclamation-1"></i>
+      </span>
+      <br />
+      <span class="label">exclamation-1</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-exclamation-2"></i>
+      </span>
+      <br />
+      <span class="label">exclamation-2</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-exit"></i>
+      </span>
+      <br />
+      <span class="label">exit</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-expand-1"></i>
+      </span>
+      <br />
+      <span class="label">expand-1</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-expand"></i>
+      </span>
+      <br />
+      <span class="label">expand</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-external-link"></i>
+      </span>
+      <br />
+      <span class="label">external-link</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-extinuisher-1"></i>
+      </span>
+      <br />
+      <span class="label">extinuisher-1</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-extinuisher-2"></i>
+      </span>
+      <br />
+      <span class="label">extinuisher-2</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-extinuisher-3"></i>
+      </span>
+      <br />
+      <span class="label">extinuisher-3</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-eye"></i>
+      </span>
+      <br />
+      <span class="label">eye</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-filter"></i>
+      </span>
+      <br />
+      <span class="label">filter</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-fire-exit-1"></i>
+      </span>
+      <br />
+      <span class="label">fire-exit-1</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-fire-exit-2"></i>
+      </span>
+      <br />
+      <span class="label">fire-exit-2</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-flame-1"></i>
+      </span>
+      <br />
+      <span class="label">flame-1</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-flame-2"></i>
+      </span>
+      <br />
+      <span class="label">flame-2</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-flood"></i>
+      </span>
+      <br />
+      <span class="label">flood</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-gauge-1"></i>
+      </span>
+      <br />
+      <span class="label">gauge-1</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-gauge-2"></i>
+      </span>
+      <br />
+      <span class="label">gauge-2</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-gauge-3"></i>
+      </span>
+      <br />
+      <span class="label">gauge-3</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-gauge-4"></i>
+      </span>
+      <br />
+      <span class="label">gauge-4</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-glove"></i>
+      </span>
+      <br />
+      <span class="label">glove</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-gloves"></i>
+      </span>
+      <br />
+      <span class="label">gloves</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-green-house"></i>
+      </span>
+      <br />
+      <span class="label">green-house</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-grid"></i>
+      </span>
+      <br />
+      <span class="label">grid</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-hammer"></i>
+      </span>
+      <br />
+      <span class="label">hammer</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-heart"></i>
+      </span>
+      <br />
+      <span class="label">heart</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-helmet-on-1"></i>
+      </span>
+      <br />
+      <span class="label">helmet-on-1</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-helmet-on-2"></i>
+      </span>
+      <br />
+      <span class="label">helmet-on-2</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-history"></i>
+      </span>
+      <br />
+      <span class="label">history</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-hook"></i>
+      </span>
+      <br />
+      <span class="label">hook</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-hose-1"></i>
+      </span>
+      <br />
+      <span class="label">hose-1</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-hose-2"></i>
+      </span>
+      <br />
+      <span class="label">hose-2</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-hose-3"></i>
+      </span>
+      <br />
+      <span class="label">hose-3</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-hose-4"></i>
+      </span>
+      <br />
+      <span class="label">hose-4</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-hour-glass"></i>
+      </span>
+      <br />
+      <span class="label">hour-glass</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-idea"></i>
+      </span>
+      <br />
+      <span class="label">idea</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-info-squared"></i>
+      </span>
+      <br />
+      <span class="label">info-squared</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-info"></i>
+      </span>
+      <br />
+      <span class="label">info</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-leak-1"></i>
+      </span>
+      <br />
+      <span class="label">leak-1</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-link"></i>
+      </span>
+      <br />
+      <span class="label">link</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-loader"></i>
+      </span>
+      <br />
+      <span class="label">loader</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-location-pin"></i>
+      </span>
+      <br />
+      <span class="label">location-pin</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-lock"></i>
+      </span>
+      <br />
+      <span class="label">lock</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-lubricant-1"></i>
+      </span>
+      <br />
+      <span class="label">lubricant-1</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-lubricant-2"></i>
+      </span>
+      <br />
+      <span class="label">lubricant-2</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-lubricant-3"></i>
+      </span>
+      <br />
+      <span class="label">lubricant-3</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-mask"></i>
+      </span>
+      <br />
+      <span class="label">mask</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-masked-face"></i>
+      </span>
+      <br />
+      <span class="label">masked-face</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-message-bubble"></i>
+      </span>
+      <br />
+      <span class="label">message-bubble</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-message"></i>
+      </span>
+      <br />
+      <span class="label">message</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-minimize"></i>
+      </span>
+      <br />
+      <span class="label">minimize</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-minus"></i>
+      </span>
+      <br />
+      <span class="label">minus</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-mobile"></i>
+      </span>
+      <br />
+      <span class="label">mobile</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-more"></i>
+      </span>
+      <br />
+      <span class="label">more</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-news-1"></i>
+      </span>
+      <br />
+      <span class="label">news-1</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-news-2"></i>
+      </span>
+      <br />
+      <span class="label">news-2</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-non-catalogue"></i>
+      </span>
+      <br />
+      <span class="label">non-catalogue</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-nut-and-bolt"></i>
+      </span>
+      <br />
+      <span class="label">nut-and-bolt</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-online"></i>
+      </span>
+      <br />
+      <span class="label">online</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-open-credit-account"></i>
+      </span>
+      <br />
+      <span class="label">open-credit-account</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-outlined-arrow-up"></i>
+      </span>
+      <br />
+      <span class="label">outlined-arrow-up</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-overall"></i>
+      </span>
+      <br />
+      <span class="label">overall</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-paint-roll"></i>
+      </span>
+      <br />
+      <span class="label">paint-roll</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-phone"></i>
+      </span>
+      <br />
+      <span class="label">phone</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-pliers"></i>
+      </span>
+      <br />
+      <span class="label">pliers</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-plug-base"></i>
+      </span>
+      <br />
+      <span class="label">plug-base</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-plus"></i>
+      </span>
+      <br />
+      <span class="label">plus</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-print"></i>
+      </span>
+      <br />
+      <span class="label">print</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-promotion"></i>
+      </span>
+      <br />
+      <span class="label">promotion</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-pully"></i>
+      </span>
+      <br />
+      <span class="label">pully</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-question-double-lined"></i>
+      </span>
+      <br />
+      <span class="label">question-double-lined</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-question-double-lined&#x3D;rounded"></i>
+      </span>
+      <br />
+      <span class="label">question-double-lined&#x3D;rounded</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-question-rounded"></i>
+      </span>
+      <br />
+      <span class="label">question-rounded</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-rain"></i>
+      </span>
+      <br />
+      <span class="label">rain</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-roll-1"></i>
+      </span>
+      <br />
+      <span class="label">roll-1</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-roll-2"></i>
+      </span>
+      <br />
+      <span class="label">roll-2</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-roll-3"></i>
+      </span>
+      <br />
+      <span class="label">roll-3</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-roll-4"></i>
+      </span>
+      <br />
+      <span class="label">roll-4</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-roll-5"></i>
+      </span>
+      <br />
+      <span class="label">roll-5</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-roll-6"></i>
+      </span>
+      <br />
+      <span class="label">roll-6</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-safety-goggles"></i>
+      </span>
+      <br />
+      <span class="label">safety-goggles</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-save"></i>
+      </span>
+      <br />
+      <span class="label">save</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-search"></i>
+      </span>
+      <br />
+      <span class="label">search</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-share"></i>
+      </span>
+      <br />
+      <span class="label">share</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-spanner-screw-driver"></i>
+      </span>
+      <br />
+      <span class="label">spanner-screw-driver</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-spanner"></i>
+      </span>
+      <br />
+      <span class="label">spanner</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-spray-bottle-2"></i>
+      </span>
+      <br />
+      <span class="label">spray-bottle-2</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-spray-bottle"></i>
+      </span>
+      <br />
+      <span class="label">spray-bottle</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-spray-bottles-1"></i>
+      </span>
+      <br />
+      <span class="label">spray-bottles-1</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-spray-bottles-2"></i>
+      </span>
+      <br />
+      <span class="label">spray-bottles-2</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-spray-bottles-3"></i>
+      </span>
+      <br />
+      <span class="label">spray-bottles-3</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-stack"></i>
+      </span>
+      <br />
+      <span class="label">stack</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-stapler"></i>
+      </span>
+      <br />
+      <span class="label">stapler</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-stationary"></i>
+      </span>
+      <br />
+      <span class="label">stationary</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-sun"></i>
+      </span>
+      <br />
+      <span class="label">sun</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-swap"></i>
+      </span>
+      <br />
+      <span class="label">swap</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-take-away-cup"></i>
+      </span>
+      <br />
+      <span class="label">take-away-cup</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-tape-1"></i>
+      </span>
+      <br />
+      <span class="label">tape-1</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-tape-2"></i>
+      </span>
+      <br />
+      <span class="label">tape-2</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-tape-3"></i>
+      </span>
+      <br />
+      <span class="label">tape-3</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-tape-4"></i>
+      </span>
+      <br />
+      <span class="label">tape-4</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-tape-5"></i>
+      </span>
+      <br />
+      <span class="label">tape-5</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-tea"></i>
+      </span>
+      <br />
+      <span class="label">tea</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-thumbs-up"></i>
+      </span>
+      <br />
+      <span class="label">thumbs-up</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-traffic-cone"></i>
+      </span>
+      <br />
+      <span class="label">traffic-cone</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-tree"></i>
+      </span>
+      <br />
+      <span class="label">tree</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-truck"></i>
+      </span>
+      <br />
+      <span class="label">truck</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-two-rolls-1"></i>
+      </span>
+      <br />
+      <span class="label">two-rolls-1</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-user-default"></i>
+      </span>
+      <br />
+      <span class="label">user-default</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-user-group"></i>
+      </span>
+      <br />
+      <span class="label">user-group</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-user-profile"></i>
+      </span>
+      <br />
+      <span class="label">user-profile</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-Valve-1"></i>
+      </span>
+      <br />
+      <span class="label">Valve-1</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-valve-1"></i>
+      </span>
+      <br />
+      <span class="label">valve-1</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-valve-2"></i>
+      </span>
+      <br />
+      <span class="label">valve-2</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-valve-3"></i>
+      </span>
+      <br />
+      <span class="label">valve-3</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-valve-4"></i>
+      </span>
+      <br />
+      <span class="label">valve-4</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-valve-5"></i>
+      </span>
+      <br />
+      <span class="label">valve-5</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-wheel-barrow"></i>
+      </span>
+      <br />
+      <span class="label">wheel-barrow</span>
+    </div>
+
+    <div class="preview">
+      <span class="inner">
+        <i class="nzsbi nzsbi-zoom-in"></i>
+      </span>
+      <br />
+      <span class="label">zoom-in</span>
+    </div>
+  </body>
 </html>
 ```
