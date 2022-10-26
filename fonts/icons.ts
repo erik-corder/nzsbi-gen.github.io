@@ -133,8 +133,8 @@ export type IconsId =
   | 'print'
   | 'promotion'
   | 'pully'
+  | 'question-double-lined-rounded'
   | 'question-double-lined'
-  | 'question-double-lined=rounded'
   | 'question-rounded'
   | 'rain'
   | 'roll-1'
@@ -318,8 +318,8 @@ export const ICONS_CODEPOINTS: { [key in IconsId]: string } = {
   'print': '61826',
   'promotion': '61827',
   'pully': '61828',
-  'question-double-lined': '61829',
-  'question-double-lined=rounded': '61830',
+  'question-double-lined-rounded': '61829',
+  'question-double-lined': '61830',
   'question-rounded': '61831',
   'rain': '61832',
   'roll-1': '61833',

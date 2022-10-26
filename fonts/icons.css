@@ -1,8 +1,8 @@
 @font-face {
     font-family: "icons";
-    src: url("/static/fonts/icons.ttf?8b877595b3c3fe13f043d0cae475615e") format("truetype"),
-url("/static/fonts/icons.woff?8b877595b3c3fe13f043d0cae475615e") format("woff"),
-url("/static/fonts/icons.woff2?8b877595b3c3fe13f043d0cae475615e") format("woff2");
+    src: url("/static/fonts/icons.ttf?421046664f609a3cb1916a737a068e07") format("truetype"),
+url("/static/fonts/icons.woff?421046664f609a3cb1916a737a068e07") format("woff"),
+url("/static/fonts/icons.woff2?421046664f609a3cb1916a737a068e07") format("woff2");
 }
 
 i[class^="nzsbi-"]:before, i[class*=" nzsbi-"]:before {
@@ -424,10 +424,10 @@ i[class^="nzsbi-"]:before, i[class*=" nzsbi-"]:before {
 .nzsbi-pully:before {
     content: "\f184";
 }
-.nzsbi-question-double-lined:before {
+.nzsbi-question-double-lined-rounded:before {
     content: "\f185";
 }
-.nzsbi-question-double-lined&#x3D;rounded:before {
+.nzsbi-question-double-lined:before {
     content: "\f186";
 }
 .nzsbi-question-rounded:before {
